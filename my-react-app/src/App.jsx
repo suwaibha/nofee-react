@@ -5,27 +5,30 @@ import './App.css'
 import Login from './login.jsx';
 import Signup from './signup.jsx';
 import Auth from './authentication.jsx';
-// import Navbar from './navbar.jsx';
+import Navbar from './navbar.jsx';
 import Footer from './footer.jsx';
 import Video from './videoplayer.jsx';
 import Courses from './courses.jsx';
 import Navbarlogin from './navbarlogin.jsx';
+import Coursesresume from './coursesresume.jsx';
 
 function App() {
   return (
     <div>
       
        
-    {/* <Navbar /> */}
+    <Navbar />
     <Navbarlogin /> 
       
       
           <Login /> 
           <Signup /> 
           <Auth /> 
-          <Courses />   
+          <Courses />  
           <Video />
+          <Coursesresume />
           <Footer /> 
+         
 
 
         </div>
