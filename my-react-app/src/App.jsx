@@ -11,6 +11,7 @@ import Video from './videoplayer.jsx';
 import Courses from './courses.jsx';
 import Navbarlogin from './navbarlogin.jsx';
 import Coursesresume from './coursesresume.jsx';
+import Aftercource from './aftercource.jsx';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Courses />  
           <Video />
           <Coursesresume />
+          <Aftercource />
           <Footer /> 
          
 
