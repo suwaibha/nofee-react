@@ -1,12 +1,15 @@
 const Aftercource = () => {
     return(
         <div className="min-h-screen flex items-center justify-center bg-white">
-            <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-150 border-1 h-80">
+            <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-150 border-1 h-90">
                 <p className="text-xl font-bold text-center mb-6">
                  <h1>Congratulations! 🎉 </h1>
                 </p>
                 <p className="text-xl font-normal text-center mb-6">
                 You have successfully completed the course on C language by Apna College. 
+                </p>
+               
+                <p className="text-xl font-normal mb-6 text-center">
                 Continue to take the assessment.
                 </p>
                 <div className="items-center text-center"> 
