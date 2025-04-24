@@ -34,24 +34,28 @@ const Navbarlogin=()=>{
                     </button>
               </div>
 
-              <div class='search-btn hidden lg:block content-center'>
-                    <button class='border rounded-full text-md w-78 text-left px-8 flex items-center justify-between xl:text-lg xl:w-98'>
-                      <span>What you want to learn..?</span>
-                      <svg xmlns="http://www.w3.org/2000/svg" 
-                      fill="none" 
-                      viewBox="0 0 24 24" 
-                      stroke-width="2.5" 
-                      stroke="currentColor" 
-                      class="size-5"
-                      >
-                        <path stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" 
-                        />
-                      </svg>
-        
-                    </button>    
-              </div> 
+              <div class="search-btn hidden lg:block lg:content-center relative w-78 xl:w-98">
+                <input 
+                  type="text" 
+                  placeholder="What do you want to learn...?"
+                  class="border rounded-full text-md w-full px-8 pr-10 xl:text-lg"
+                />
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  fill="none" 
+                  viewBox="0 0 24 24" 
+                  stroke-width="2.5" 
+                  stroke="currentColor" 
+                  class="absolute right-3 top-1/2 transform -translate-y-1/2 size-5 text-gray-500 pointer-events-none"
+                >
+                  <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" 
+                  />
+                </svg>
+              </div>
+
 
               <div class='language-btn hidden lg:block content-center lg:px-3 xl:px-14'>
                     <button class='border rounded-full text-center px-4 text-md flex items-center justify-between gap-2 xl:text-lg'>

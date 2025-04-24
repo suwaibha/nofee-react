@@ -1,5 +1,4 @@
 import { TfiAlignJustify } from "react-icons/tfi";
-
 function Navbar() {
     return (
       <>
@@ -193,7 +192,7 @@ function Navbar() {
               <div class='Logo' className='flex flex-row items-center gap-3'>
                 <img 
                   className='h-10 rounded-lg'
-                  src="./src/logo.jpg"
+                  src="/components/logo.jpg"
                   alt="LOGO"
                 />
                 <h1 className='font-bold text-xl'>PrepVio</h1>

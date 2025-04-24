@@ -5,7 +5,7 @@ import './App.css'
 import Login from './login.jsx';
 import Signup from './signup.jsx';
 import Auth from './authentication.jsx';
-// import Navbar from './navbar.jsx';
+import Navbar from './navbar.jsx';
 import Footer from './footer.jsx';
 import Video from './videoplayer.jsx';
 import Courses from './courses.jsx';
@@ -16,7 +16,7 @@ function App() {
     <div>
       
        
-    {/* <Navbar /> */}
+    <Navbar />
     <Navbarlogin />
       
       
