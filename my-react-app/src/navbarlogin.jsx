@@ -97,7 +97,12 @@ const Navbarlogin=()=>{
                     </svg>
              </div>
              <div className="hidden lg:flex gap-2.5">
-                <div className="items-center border-11 rounded-xl">
+                <div className="items-center">
+                  
+                  <div class="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
+                    <span class="font-medium text-gray-600 dark:text-gray-300">SF</span>
+                  </div>
+
                 </div>
                 <div className="flex items-center">
                     <svg class="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 8">
