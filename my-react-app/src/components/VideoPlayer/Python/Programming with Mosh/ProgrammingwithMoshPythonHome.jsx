@@ -5,9 +5,9 @@ import PlayListSidebar from "./PlayListSidebar.jsx";
 import PlayListPlayer from "../../Common Components/PlayListPlayer";
 
 
-const ApnaCollegePythonHome = () => {
+const ProgrammingwithMoshPythonHome = () => {
   const apiKey = "AIzaSyBs569PnYQUNFUXon5AMersGFuKS8aS1QQ";
-  const playlistId = "PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0";
+  const playlistId = "PLTjRvDozrdlxj5wgH4qkvwSOdHLOCx10f";
   const maxResults = 50;
 
   const [videos, setVideos] = useState([]);
@@ -155,4 +155,4 @@ const ApnaCollegePythonHome = () => {
   );
 };
 
-export default ApnaCollegePythonHome;
+export default ProgrammingwithMoshPythonHome;

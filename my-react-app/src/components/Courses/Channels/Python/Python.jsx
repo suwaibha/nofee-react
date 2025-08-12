@@ -1,4 +1,19 @@
 function Python() {
+  function apnacollege(){
+    window.open(`${window.location.origin}/Python/apna-college`, '_blank');
+  }
+
+  function chaiaurcode(){
+    window.open(`${window.location.origin}/Python/chai-aur-code`, '_blank');
+  }
+
+  function programmingwithmosh(){
+    window.open(`${window.location.origin}/Python/programming-with-mosh`, '_blank');
+  }
+  
+  
+  
+  
   return (
     <>
       <h1 className="text-2xl font-bold text-blue-800 sm:ml-40 sm:mt-10 sm:mb-4 sm:text-2xl sm:font-bold sm:text-blue-800 ml-10 mt-10 mb-4">
@@ -32,7 +47,9 @@ function Python() {
               </p>
 
               <div className="flex justify-center sm:justify-start">
-                <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+                <button 
+                onClick = {apnacollege}
+                className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                   Start Learning
                 </button>
               </div>
@@ -79,7 +96,9 @@ function Python() {
               </p>
 
               <div className="flex justify-center sm:justify-start">
-                <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+                <button 
+                 onClick = {chaiaurcode}
+                className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                   Start Learning
                 </button>
               </div>
@@ -125,7 +144,9 @@ function Python() {
               </p>
 
               <div className="flex justify-center sm:justify-start">
-                <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+                <button 
+                onClick={programmingwithmosh}
+                className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                   Start Learning
                 </button>
               </div>

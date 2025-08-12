@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 import PlayListSidebar from "./PlayListSidebar.jsx";
-import PlayListPlayer from "../../Common Components/PlayListPlayer";
+import PlayListPlayer from "../../Common Components/PlayListPlayer.jsx";
 
 
-const ApnaCollegePythonHome = () => {
+const ChaiaurcodeHtmlHome = () => {
   const apiKey = "AIzaSyBs569PnYQUNFUXon5AMersGFuKS8aS1QQ";
-  const playlistId = "PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0";
+  const playlistId = "PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI";
   const maxResults = 50;
 
   const [videos, setVideos] = useState([]);
@@ -155,4 +155,4 @@ const ApnaCollegePythonHome = () => {
   );
 };
 
-export default ApnaCollegePythonHome;
+export default ChaiaurcodeHtmlHome;

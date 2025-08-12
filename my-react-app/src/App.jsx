@@ -26,8 +26,14 @@ import JennyCppHome from './components/VideoPlayer/Cpp/Jennys Lecture/JennyCppHo
 import ApnaCollegeJavaHome from './components/VideoPlayer/Java/Apna College/ApnaCollegeJavaHome.jsx'
 import ChaiAurCodeJavaHome from './components/VideoPlayer/Java/ChaiAurCode/ChaiAurCodeJavaHome.jsx'
 import ProgrammingwithmoshJavaHome from './components/VideoPlayer/Java/Mosh/ProgrammingwithmoshJavaHome'
-
-
+// Python
+import ApnaCollegePythonHome from './components/VideoPlayer/Python/Apna College/ApnaCollegePythonHome.jsx'
+import ChaiaurcodePythonHome from './components/VideoPlayer/Python/Chai aur Code/ChaiaurcodePythonHome.jsx'
+import ProgrammingwithMoshPythonHome from './components/VideoPlayer/Python/Programming with Mosh/ProgrammingwithMoshPythonHome.jsx'
+//Html
+import ApnaCollegeHtmlHome from './components/VideoPlayer/Html/Apna College/ApnaCollegeHtmlHome.jsx'
+import ChaiaurCodeHtmlHome from './components/VideoPlayer/Html/Chai aur Code/ChaiaurCodeHtmlHome.jsx'
+import ProgrammingwithMoshHtmlHome from './components/VideoPlayer/Html/Programming with Mosh/ProgrammingwithMoshHtmlHome.jsx'    
 
 
 
@@ -73,6 +79,17 @@ function App() {
         <Route path='/Java/apna-college' element={<ApnaCollegeJavaHome/>}/>
         <Route path='/Java/chai-aur-code' element={<ChaiAurCodeJavaHome/>}/>
         <Route path='/Java/programming-with-mosh' element={<ProgrammingwithmoshJavaHome/>}/>
+
+        {/* Python Starts from here */}
+        <Route path='/Python/apna-college' element={<ApnaCollegePythonHome/>}/> 
+        <Route path='/Python/chai-aur-code' element={<ChaiaurcodePythonHome/>}/>  
+        <Route path='/Python/programming-with-mosh' element={<ProgrammingwithMoshPythonHome/>}/>
+
+        {/* Html Starts from here */}
+        <Route path='/Html/apna-college' element={<ApnaCollegeHtmlHome/>}/>
+        <Route path='/Html/chai-aur-code' element={<ChaiaurCodeHtmlHome/>}/>
+        <Route path='/Html/programming-with-mosh' element={<ProgrammingwithMoshHtmlHome/>}/>
+          
 
 
 
