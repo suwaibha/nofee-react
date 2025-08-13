@@ -14,7 +14,7 @@ import CSS from '/src/components/Courses/Channels/CSS/CSS.jsx'
 import JavaScript from '/src/components/Courses/Channels/JavaScript/JS.jsx'
 import Mern from '/src/components/Courses/Channels/Mern/Mern.jsx'
 
-
+//C
 import ApnaCollegeCHome from './components/VideoPlayer/C/Apna College/ApnaCollegeCHome.jsx'
 import JennyCHome from './components/VideoPlayer/C/Jennys Lecture/JennyCHome.jsx'
 import CollegeWallahCHome from './components/VideoPlayer/C/CollegeWallah/CollegeWallahCHome.jsx'
@@ -34,9 +34,19 @@ import ProgrammingwithMoshPythonHome from './components/VideoPlayer/Python/Progr
 import ApnaCollegeHtmlHome from './components/VideoPlayer/Html/Apna College/ApnaCollegeHtmlHome.jsx'
 import ChaiaurCodeHtmlHome from './components/VideoPlayer/Html/Chai aur Code/ChaiaurCodeHtmlHome.jsx'
 import ProgrammingwithMoshHtmlHome from './components/VideoPlayer/Html/Programming with Mosh/ProgrammingwithMoshHtmlHome.jsx'    
+//CSS
+import ChaiaurcodeCSSHome from './components/VideoPlayer/Css/Chai aur Code/ChaiaurcodeCSSHome.jsx'
+import SheryiansReactHome from './components/VideoPlayer/Css/Sheriyans/SheryiansReactHome.jsx'
 
+// JavaScript
+import ApnaCollegeJSHome from './components/VideoPlayer/JavaScript/Apna College/ApnaCollegeJSHome.jsx'
+import ChaiaurcodeJSHome from './components/VideoPlayer/JavaScript/chai aur code/ChaiaurcodeJSHome.jsx'
+import MoshJSHome from './components/VideoPlayer/JavaScript/programming with mosh/MoshJSHome.jsx'
 
-
+//Mern
+import ThapaTechnicalMernHome from './components/VideoPlayer/Mern/Thapa Technical/ThapaTechnicalMernHome.jsx'
+import SheryiansCodingSchoolMernHome from './components/VideoPlayer/Mern/Sheryians Coding School/SheryiansCodingSchoolMernHome.jsx'
+import IntelliPaatMernHome from './components/VideoPlayer/Mern/Intellipaat/IntelliPaatMernHome.jsx'
 // Check your ability
 import MainPageCYA from '/src/components/Check-Your-Ability/MainPageCYA'
 import InterviewRounds from '/src/components/Check-Your-Ability/InterviewRounds.jsx'
@@ -92,7 +102,19 @@ function App() {
           
 
 
+        {/* CSS Starts from here */}
+        <Route path='/CSS/chai-aur-code' element={<ChaiaurcodeCSSHome/>}/>
+        <Route path='/CSS/sheryians-coding-school' element={<SheryiansReactHome/>}/>
 
+        {/* JavaScript Starts from here */}
+        <Route path='/JS/apna-college' element={<ApnaCollegeJSHome/>}/>
+        <Route path='/JS/chai-aur-code' element={<ChaiaurcodeJSHome/>}/>
+        <Route path='/JS/programming-with-mosh' element={<MoshJSHome/>}/>
+
+        {/* Mern Starts from here */}
+        <Route path='/Mern/thapa-technical' element={<ThapaTechnicalMernHome/>}/>
+        <Route path='/Mern/sheryians-coding-school' element={<SheryiansCodingSchoolMernHome/>}/>
+        <Route path='/Mern/intellipaat' element={<IntelliPaatMernHome/>}/>
 
          
           {/* Check your ability */}

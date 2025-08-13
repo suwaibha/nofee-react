@@ -1,4 +1,12 @@
+
 function CSS() {
+
+          function chaiaurcode(){
+          window.open(`${window.location.origin}/CSS/chai-aur-code`, '_blank');
+        }
+        function Sheryians(){
+          window.open(`${window.location.origin}/CSS/sheryians-coding-school`, '_blank');
+        }
     return (
       <>
       <h1 className="text-2xl font-bold text-blue-800 sm:ml-40 sm:mt-10 sm:mb-4 sm:text-2xl sm:font-bold sm:text-blue-800 ml-10 mt-10 mb-4">
@@ -30,7 +38,9 @@ function CSS() {
   Baaki baad me.</p>
   
         <div className="flex justify-center sm:justify-start">
-          <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          <button 
+          onClick={chaiaurcode}
+          className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
@@ -74,7 +84,9 @@ function CSS() {
         The Sheryians Coding School is a step towards helping our Indian audience to learn modern design and coding practices.</p>
   
         <div className="flex justify-center sm:justify-start">
-          <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          <button 
+          onClick={Sheryians}
+          className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>

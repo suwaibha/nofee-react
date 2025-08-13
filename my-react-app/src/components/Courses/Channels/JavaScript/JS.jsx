@@ -1,4 +1,16 @@
+
 function JS() {
+
+  function ApnaCollege(){
+  window.open(`${window.location.origin}/JS/Apna-College`, '_blank');
+}
+function chaiaurcode(){
+  window.open(`${window.location.origin}/JS/chai-aur-code`, '_blank');
+}
+function moshprogramming(){
+  window.open(`${window.location.origin}/JS/programming-with-mosh`, '_blank');
+}
+
     return (
       <>
       <h1 className="text-2xl font-bold text-blue-800 sm:ml-40 sm:mt-10 sm:mb-4 sm:text-2xl sm:font-bold sm:text-blue-800 ml-10 mt-10 mb-4">
@@ -26,7 +38,9 @@ function JS() {
         </p>
   
         <div className="flex justify-center sm:justify-start">
-          <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          <button
+          onClick={ApnaCollege}
+           className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
@@ -73,7 +87,9 @@ function JS() {
   Baaki baad me.</p>
   
         <div className="flex justify-center sm:justify-start">
-          <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          <button
+          onClick={chaiaurcode}
+           className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
@@ -117,7 +133,9 @@ function JS() {
         Mosh is a seasoned software engineer sharing practical coding tutorials and real-world projects to help learners build skills and land tech jobs.</p>
   
         <div className="flex justify-center sm:justify-start">
-          <button className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          <button
+          onClick={moshprogramming}
+           className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
