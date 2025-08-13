@@ -8,7 +8,7 @@ function CSS() {
   
   
   
-      <div className="flex justify-center sm:mt-10 mb-10 mx-5">
+    <div className="flex justify-center sm:mt-10 mb-10 mx-5">
   <div className="sm:borderl  w-300  border rounded bg-blue-100 p-4">
     <div className="flex flex-col sm:flex-row sm:items-start sm:gap-4">
       
