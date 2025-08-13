@@ -5,7 +5,6 @@ function CSS() {
         Channels for CSS
       </h1>
      
-  {/* git test */}
   
   
     <div className="flex justify-center sm:mt-10 mb-10 mx-5">
