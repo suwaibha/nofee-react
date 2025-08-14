@@ -26,21 +26,17 @@ function C() {
               ></img>
             </div>
 
-            <div className="flex flex-col sm:w-full">
+            <div className="flex flex-col sm:w-full"> 
               <p className="text-lg font-semibold text-center sm:text-left sm:mt-0 mt-2">
                 Apna College
-              </p>
+              </p> 
 
-              <h6 className="text-sm text-gray-700 text-center sm:text-left mt-1">
+              <h6 className="text-md text-gray-700 text-center sm:text-left mt-1">
                 Description
               </h6>
 
-              <p className="text-sm text-gray-700 text-center sm:text-left mt-1">
-                Apna College is a popular YouTube channel by Shraddha Khapra,
-                offering high-quality coding, DSA, and web development tutorials
-                for beginners. It provides structured courses, placement
-                guidance, and practical projects to help students prepare for
-                tech jobs.
+              <p className="text-md text-gray-700 text-center sm:text-left mt-1">
+                Apna College is a popular YouTube channel by Shraddha Khapra, offering high-quality coding, DSA, and web development tutorials for beginners. <br/>It provides structured courses, placement guidance, and practical projects to help students prepare for tech jobs.
               </p>
 
               <div className="flex justify-center sm:justify-start">
@@ -82,15 +78,12 @@ function C() {
                 Jenny's Lecture
               </p>
 
-              <h6 className="text-sm text-gray-700 text-center sm:text-left mt-1">
+              <h6 className="text-md text-gray-700 text-center sm:text-left mt-1">
                 Description
-              </h6>
+              </h6>             
 
-              <p className="text-sm text-gray-700 text-center sm:text-left mt-1">
-                Jenny's Lectures is a popular YouTube channel offering quality
-                tutorials in C, C++, Python, DSA, and core CS subjects. It
-                provides structured courses, placement prep, GATE & UGC NET
-                videos, and career tips for learners at all levels.
+              <p className="text-md text-gray-700 text-center sm:text-left mt-1">
+                Jenny's Lectures CS/IT, founded by Jayanti Khatri Lamba, offers free educational content on programming (C, C++, Java, Python), data structures, algorithms, networking, OS, and competitive exams like UGC NET and GATE, with 1.7M+ subscribers.
               </p>
 
               <div className="flex justify-center sm:justify-start">
@@ -133,17 +126,12 @@ function C() {
                 College Wallah
               </p>
 
-              <h6 className="text-sm text-gray-700 text-center sm:text-left mt-1">
-                description
+               <h6 className="text-sm text-gray-700 text-center sm:text-left mt-1">
+                Description
               </h6>
 
               <p className="text-sm text-gray-700 text-center sm:text-left mt-1">
-                Sure! Here's a concise version of your College Wallah intro,
-                similar in length and style to the Apna College one: --- College
-                Wallah is a YouTube channel that guides students from college
-                life to career success. It offers study tips, time management
-                hacks, expert roadmaps, and career advice from both industry
-                leaders and young achievers.
+                Coding Wallah by PW, led by expert educators from Physics Wallah, provides free quality education in programming (C, C++, Java, Python), data structures, algorithms, DBMS, OS, CN, and placement preparation, helping students crack interviews, GATE, and other competitive exams effectively.
               </p>
 
               <div className="flex justify-center sm:justify-start">

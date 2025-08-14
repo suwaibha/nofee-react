@@ -18,8 +18,8 @@ function Aboutus(){
             `}
           </style>
 
-          <div className="border-b py-10 xl:border-none">
-            <div className='w-fit ml-10'>
+          <div className="border-b py-10 xl:border-none bg-gradient-to-r from-blue-50 to-yellow-50 ">
+            <div className='w-fit ml-10 h-fit'>
               <h1 className="text-3xl xl:text-6xl mt-10 ml-5 xl:ml-12">
                 Learn And <span className="text-blue-600">Practice</span> <br />
                 Without Limit
@@ -43,13 +43,13 @@ function Aboutus(){
             </div>
           </div>
           
-          <div>
+          {/* <div>
           <ScrollVelocity
             texts={['PrepVio *', 'Scroll Down']} 
             velocity={velocity} 
             className=" custom-scroll-text hidden xl:block xl:font-bold xl:text-orange-300"
           />
-          </div>
+          </div> */}
         
           <div className="before-aboutus border-b px-5">
             <div className="flex flex-col md:flex-row items-center gap-10 mt-10 mb-15 sm:justify-center xl:space-x-55 xl:mb-10">

@@ -41,7 +41,7 @@ function Header() {
                 <Menu trigger="hover" openDelay={100} closeDelay={100} position="bottom-start" offset={18}>
                   <Menu.Target style={{
                     borderRadius:'50px',
-                    backgroundColor: '#e6e6e6',
+                    backgroundColor: '#e6e6e6ff',
                     border: '1px solid black',
                     color:'black',
                     padding:'1px 12px',

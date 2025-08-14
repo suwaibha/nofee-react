@@ -16,8 +16,8 @@ function Cpp() {
         Channels for C++
       </h1>
       <div className="flex justify-center sm:mt-10 mb-10 mx-5 ">
-  <div className="sm:border  w-300  border rounded bg-blue-100 p-4">
-    <div className="flex flex-col sm:flex-row sm:items-start sm:gap-4">
+      <div className="sm:border  w-300  border rounded bg-blue-100 p-4">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:gap-4">
       
       
       <div className="h-[130px] w-[150px] sm:h-40 sm:w-40 border rounded-md mx-auto sm:mx-0 mb-4 sm:mb-0 ">
@@ -39,7 +39,7 @@ function Cpp() {
         <div className="flex justify-center sm:justify-start">
           <button 
           onClick={apnacollege}
-          className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          className="mt-3 px-4 py-1 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
@@ -87,7 +87,7 @@ function Cpp() {
         <div className="flex justify-center sm:justify-start">
           <button
           onClick={ChaiAurCode}
-           className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+           className="mt-3 px-4 py-1 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
@@ -132,7 +132,7 @@ function Cpp() {
         <div className="flex justify-center sm:justify-start">
           <button
           onClick={ jenny} 
-          className="mt-3 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+          className="mt-3 px-4 py-1 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600 transition">
             Start Learning
           </button>
         </div>
